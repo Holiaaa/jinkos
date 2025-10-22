@@ -26,7 +26,5 @@ entry:
 
     jmp 0x7e00
 
-%include "boot_utils.asm"
-
 times 510-($-$$) db 0
 dw 0xAA55
