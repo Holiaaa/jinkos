@@ -1,5 +1,5 @@
 // simple FAT12 implementation in C
-// compile it by doing : gcc fat12.c -o fat12.exe (or fat12)
+// made by Téo JAUFFRET
 
 #include <stdio.h>
 #include <stdint.h>
