@@ -37,7 +37,7 @@ start:
 
     jmp $
 
-%INCLUDE "boot_utils.asm"
+%INCLUDE "boot_utils.inc"
 
 msg: db "Jink Bootloader", 0
 msg2: db "Loading KERNEL.BIN ...", 0
