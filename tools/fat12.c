@@ -151,7 +151,7 @@ int main(int argc, char **argv) {
         if (first == 0x00) break;
         if (first == 0xE5) continue;
 
-        if (de->attr & 0x08) { // Volume label
+        if (de->attr & 0x08) {
             char label[9]; memcpy(label, de->name, 8); label[8] = '\0';
             printf("Volume label: %s\n", label);
             continue;
